@@ -24,7 +24,7 @@ HELP.mdJ files
 hs_err_pid*
 
 ### IntelliJ IDEA ###
-.idea
+/.idea/
 *.iws
 *.iml
 *.ipr
