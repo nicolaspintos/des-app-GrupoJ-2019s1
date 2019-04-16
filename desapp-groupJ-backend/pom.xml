@@ -14,8 +14,26 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
+
   <build>
-    <finalName>desapp-groupJ-backend</finalName>
+    <plugins>
+      <plugin>
+        <groupId>ar.edu.unq.desapp.grupoJ</groupId>
+        <artifactId>desapp-groupJ-backend</artifactId>
+      </plugin>
+    </plugins>
   </build>
+
 </project>
