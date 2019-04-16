@@ -24,8 +24,8 @@ HELP.mdJ files
 hs_err_pid*
 
 ### IntelliJ IDEA ###
-.idea
-.out
+*.idea
+*.out
 des-app-GrupoJ-2019s1.iml
 *.iws
 *.iml
